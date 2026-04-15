@@ -59,9 +59,7 @@ def solve():
     except Exception as e:
         print(f"[-] Natijani o'qishda xatolik: {e}")
 
-if __name__ == "__main__":
-    # Avtomatik ravishda terminaldagi xabarlarni kamaytirish (pwntools loglari)
-    context.log_level = 'error'
+
 
     # Agar terminaldan IP va Port berilsa, o'shani qabul qiladi
     if len(sys.argv) == 3:
