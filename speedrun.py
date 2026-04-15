@@ -69,7 +69,7 @@ if __name__ == "__main__":
         PORT = int(sys.argv[2])
     
     # IP va Port kiritilmagan bo'lsa, foydalanuvchini ogohlantirish
-    if HOST == "IP_MANZILNI_SHU_YERGA_YOZING":
+    if HOST == "154.57.164.66":
         print("[-] XATOLIK: IP manzil kiritilmagan!")
         print("[!] 1-usul: Kod ichidagi HOST va PORT o'zgaruvchilarini tahrirlang.")
         print("[!] 2-usul: Terminaldan to'g'ridan-to'g'ri ishlating: python3 solve.py <IP> <PORT>")
