@@ -3,8 +3,8 @@ import re
 import time
 
 def solve():
-    host = '154.57.164.74'
-    port = 31566
+    host = '154.57.164.75'
+    port = 32585
 
     # Serverga ulanish
     s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
